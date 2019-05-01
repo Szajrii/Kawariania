@@ -12,4 +12,6 @@ Strona dostępna pod adresem:
 
 https://storage.googleapis.com/mszarek/kawiarnia/index.html
 
+https://szajrii.github.io/Kawariania/
+
 
