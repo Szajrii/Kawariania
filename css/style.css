@@ -172,7 +172,16 @@ i {
 #github{
 	padding-right: 7px;
 }
-
+#github, #linkedin{
+	color: white;
+	
+}
+#github:visited{
+	color: white;
+}
+#linkedin:visited{
+	color: white;
+}
 /*style dla menu*/
 .navbar{
 	width: 100%;
