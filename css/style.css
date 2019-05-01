@@ -1,0 +1,306 @@
+html,body {
+	margin: 0;
+	width: 100%;
+	height: 100%;
+	font-family: impact
+}
+h1{
+	font-size: 25px;
+}
+p{
+	font-size: 18px;
+}
+
+/*określenie rozmiaru i tła dla sekcji header*/
+.header {
+	width: 100%;
+	height: 100%;
+	background-image: url('../img/background.jpg');
+	background-repeat: no-repeat;
+	background-size:100% 100%;
+	/*opacity: 0.6;*/
+}
+
+/*główny widok stanowiący 70% całego ekranu*/
+.main-view {
+	width: 70%;
+	margin: auto;
+}
+
+.flex {
+	display: flex;
+	justify-content: space-around;
+}
+/*określenie padingów dla sekcji main*/
+.main{
+	padding-top: 7%;
+	padding-bottom: 7%;
+	background-color: #eeeff1;
+}
+/*widok kolumnowy*/
+.col-3{
+	width: 30%;
+	margin: auto
+}
+.col-2{
+	width: 42%;
+	margin: auto;;
+}
+/*klasy z marginesami*/
+.margin-a{
+	margin: auto;
+	text-align: center;
+}
+.margin-top-5{
+	margin-top: 5%;
+}
+.margin-top-10{
+	margin-top: 10%;
+}
+
+/*rozmiar i tło sekcji about*/
+.about{
+	width: 100%;
+	height: 100%;
+	background-image: url('../img/about.jpg');
+	background-repeat: no-repeat;
+	background-size:100% 100%;
+	
+}
+
+/*tekst główny w sekcji about*/
+.main-text{
+	margin-block-start: 0em;
+    margin-block-end: 0em;
+	font-size: 5vw ; 
+	color: black;
+	opacity: 0.6;
+	text-align: center;
+	text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+
+}
+.padding-top-5{
+	padding-top: 5%;
+}
+.bigger-text p{
+	text-align: justify;
+	font-size: 1.5vw !important;
+	text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+
+
+.line{
+	height: 0.1%;
+	width: 70%;
+	opacity: 0.7;
+	margin: auto;
+	background-color: #ddd4cd;
+	border:1px solid #ddd4cd;
+}
+.full-height{
+	height: 100%;
+}
+
+/*przycisk w sekcji about*/
+.button{
+	width: 35%;
+	margin: auto;
+	height: 85px;
+	margin-top: 10%;
+	border: 2px solid black;
+	border-radius: 5px;
+	box-shadow: 79px 32px 32px 17px rgba(0,0,0,0.75);
+	cursor: pointer;
+	text-align: center;
+	vertical-align: middle;
+	background-color: #ddd4cd;
+	opacity: 0.8;
+	font-size: 20px;
+	line-height: 85px;
+
+}
+.button:hover{
+	background-color: white;
+}
+iframe {
+	width: 100%;
+	height: 400px;
+}
+
+/*styl dla sekcji contact*/
+.contact{
+	width: 100%;
+	background-color: #eeeff1;
+	padding-top: 2%;
+	padding-bottom: 1%;
+}
+
+/*nagłówek sekcji kontakt*/
+.contact-header{
+    text-align: center;
+    font-size: 2vw;
+    padding: 1% 0 1% 0;
+	height: 10%;
+	width: 60%;
+	margin: auto;
+	margin-bottom: : 10%;
+	border-top: 2px solid black;
+	border-bottom: 2px solid black
+}
+i {
+	cursor: pointer;
+}
+.contact-details p {
+	font-family: Brush Script MT ;
+	font-size: 1.7vw;
+}
+/*style dla stopki*/
+.footer{
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	background-color: black;
+}
+.footer-body{
+	font-family: Palatino;
+	color: white	
+}
+.adnotations {
+	float: right;
+	font-size: 25px;
+}
+#github{
+	padding-right: 7px;
+}
+
+/*style dla menu*/
+.navbar{
+	width: 100%;
+	height: 100px;
+	line-height: 100px;
+	font-size: 25px;
+	text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+	text-decoration: none;
+	
+}
+#navbar{
+	transition: all 1s ease-out;
+}
+#nav-right{
+	float: right;
+}
+#nav-right a{
+	text-decoration: none;
+	padding-right: 9px;
+	color: black;
+	cursor: pointer;
+}
+#nav-left a{
+	text-decoration: none;
+	color: black ;
+	cursor: pointer;
+}
+
+/*stworzenie menu które podąża wraz ze scrollem użytkownika*/
+.sticky{
+	background-color: black;
+	text-shadow: -1px 0 #ddd4cd, 0 1px #ddd4cd, 1px 0 #ddd4cd, 0 -1px #ddd4cd ;
+	position: fixed;
+	top:0;
+	/*opacity: 1 !important;*/
+	z-index: 1;
+}
+.sticky-color{
+	color: white !important;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black ;
+}
+.sticky-color:hover{
+	color: #ddd4cd !important;
+}
+#a-left:hover{
+	color: #ddd4cd !important;
+}
+.a-right:hover{
+	color: #ddd4cd !important;
+}
+
+/*czcionka dla sekcji header*/
+#header-text h1{
+	font-size: 3.5vw;
+	text-align: center;
+	font-family: 'Parisienne';
+	color: white;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+#header-text h2{
+	font-size: 2.5vw;
+	text-align: center;
+	font-family: 'Parisienne';
+	color: white;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+#header-text{
+	padding-top: 4%;
+	z-index: -1;
+}
+/*przycisk w kształcie kółka*/
+.circle{
+	height: 75px;
+	width: 75px;
+	border-radius: 50%;
+	border: 3px solid #ddd4cd;
+	margin: auto;
+	text-align: center;
+}
+#arrow-button {
+	
+	font-size: 40px;
+	line-height: 75px;
+	color: white; 
+	text-shadow: -1px 0 #ddd4cd, 0 1px #ddd4cd, 1px 0 #ddd4cd, 0 -1px #ddd4cd;
+}
+.circle:hover{
+	background-color: #ddd4cd;
+	opacity: 0.6;
+	cursor: pointer;
+}
+
+/*animacje dla pojawiających się elementów*/
+.transform-0{
+	transform: translateX(-100vw);
+}
+.transform-100{
+	transition: transform 0.5s;
+}
+.opacity-0{
+	opacity: 0;
+}
+.opacity-100{
+	transition: opacity 1s ease;
+}
+.transform-bot-0{
+	opacity: 0;
+	transform:translateY(30vw);
+}
+.transform-bot-100{
+	opacity: 1;
+	transition: transform 1s;
+}
+
+/*media query dla urządzeń mobilnych*/
+@media only screen and (max-width: 1500px) {
+  .header, .about {
+    height: 650px;
+  }
+  .contact{
+  	height:  550px;
+  }
+  /*.padding-top-5{
+  	padding-top: 5%;
+  }*/
+}
+/*div h1{
+	height: 75px;
+}
+*/
